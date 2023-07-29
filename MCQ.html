@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MCQ's</title>
+    <style type="text/css">
+      li {
+        font-style: bold;
+        color: white;
+        font-size: 30px;
+        font-family: arial;
+      }
+      p {
+        font-size: 18px;
+        color: brown;
+        font-weight: bold;
+      }
+      h1 {
+        text-decoration: underline;
+        color: darkblue;
+      }
+      h2 {
+        font-family: monospace;
+        color: papayawhip;
+      }
+      fieldset {
+        height: 99%;
+        width: 97%;
+        border: 3px double whitesmoke;
+        background-color: black;
+        top: 10px;
+      }
+      .btn {
+        padding: 10px;
+        background-color: blue;
+        border: 3px solid black;
+        color: white;
+        font-weight: bold;
+        border-radius: 9px;
+        cursor: pointer;
+      }
+      .s {
+        font-size: 18px;
+        color: green;
+        font-weight: bold;
+      }
+      .r {
+        font-size: 18px;
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+    <script src="answers.js"></script>
+  </head>
+  <body style="background-image: url(img26.jpeg)">
+    <form name="ans" id="ans">
+      <h1>:-Multiple Choice Questions:-</h1>
+      <fieldset>
+        <ol>
+          <li>The full form of CSS is:</li>
+          <p>
+            <input
+              type="radio"
+              name="M1"
+              value="Coloured Special Sheets"
+              id="a2"
+            /><label for="a2">Coloured Special Sheets</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M1"
+              value="Cascading Style Sheets"
+              id="a1"
+            /><label for="a1">Cascading Style Sheets</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M1"
+              value="Colour and Style Sheets"
+              id="a3"
+            /><label for="a3">Colour and Style Sheets</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M1"
+              value="None of the above"
+              id="a4"
+            /><label for="a4">None of the above</label>
+          </p>
+          <div id="btn1" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer1()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>How can we change the background color of an element?</li>
+          <p>
+            <input
+              type="radio"
+              name="M2"
+              value="background-color"
+              id="b1"
+            /><label for="b1">background-color</label>
+          </p>
+          <p>
+            <input type="radio" name="M2" value="color" id="b2" /><label
+              for="b2"
+              >color</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M2"
+              value="both 1st & 2nd"
+              id="b3"
+            /><label for="b3">both 1st & 2nd</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M2"
+              value="None of the above"
+              id="b4"
+            /><label for="b4">None of the above</label>
+          </p>
+          <div id="btn2" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer2()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>How can we change the text color of an element?</li>
+          <p>
+            <input
+              type="radio"
+              name="M3"
+              value="background-color"
+              id="c1"
+            /><label for="c1">background-color</label>
+          </p>
+          <p>
+            <input type="radio" name="M3" value="color" id="c2" /><label
+              for="c2"
+              >color</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M3"
+              value="both 1st & 2nd"
+              id="c3"
+            /><label for="c3">both 1st & 2nd</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M3"
+              value="None of the above"
+              id="c4"
+            /><label for="c4">None of the above</label>
+          </p>
+          <div id="btn3" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer3()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>In how many ways can CSS be written in?</li>
+          <p>
+            <input type="radio" name="M4" value="1" id="d1" /><label for="d1"
+              >1</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M4" value="2" id="d2" /><label for="d2"
+              >2</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M4" value="3" id="d3" /><label for="d3"
+              >3</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M4" value="4" id="d4" /><label for="d4"
+              >4</label
+            >
+          </p>
+          <div id="btn4" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer4()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>
+            What type of CSS is generally recommended for designing large web
+            pages?
+          </li>
+          <p>
+            <input type="radio" name="M5" value="Inline" id="e1" /><label
+              for="e1"
+              >Inline</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M5" value="Internal" id="e2" /><label
+              for="e2"
+              >Internal</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M5" value="External" id="e3" /><label
+              for="e3"
+              >External</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M5"
+              value="None of the above"
+              id="e4"
+            /><label for="e4">None of the above</label>
+          </p>
+          <div id="btn5" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer5()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>How can we select an element with a specific ID in CSS?</li>
+          <p>
+            <input type="radio" name="M6" value="#" id="f1" /><label for="f1"
+              >#</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M6" value="." id="f2" /><label for="f2"
+              >.</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M6" value="^" id="f3" /><label for="f3"
+              >^</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M6"
+              value="None of the above"
+              id="f4"
+            /><label for="f4">None of the above</label>
+          </p>
+          <div id="btn6" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer6()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>How can we select an element with a specific class in CSS?</li>
+          <p>
+            <input type="radio" name="M7" value="#" id="g1" /><label for="g1"
+              >#</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M7" value="." id="g2" /><label for="g2"
+              >.</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M7" value="^" id="g3" /><label for="g3"
+              >^</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M7"
+              value="None of the above"
+              id="g4"
+            /><label for="g4">None of the above</label>
+          </p>
+          <div id="btn7" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer7()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>How can we write comments in CSS?</li>
+          <p>
+            <input type="radio" name="M8" value="//" id="h1" /><label for="h1"
+              >//</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M8" value="/* */" id="h2" /><label
+              for="h2"
+              >/* */</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M8" value="#" id="h3" /><label for="h3"
+              >#</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M8"
+              value="None of the above"
+              id="h4"
+            /><label for="h4">None of the above</label>
+          </p>
+          <div id="btn8" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer8()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>Can negative values be allowed in padding property?</li>
+          <p>
+            <input type="radio" name="M9" value="Yes" id="i1" /><label for="i1"
+              >Yes</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="M9" value="No" id="i2" /><label for="i2"
+              >No</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M9"
+              value="Depends on property"
+              id="i3"
+            /><label for="i3">Depends on property</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M9"
+              value="None of the above"
+              id="i4"
+            /><label for="i4">None of the above</label>
+          </p>
+          <div id="btn9" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer9()">
+              Show/Hide answer
+            </button>
+          </div>
+
+          <li>
+            We can make rounded borders around elements using which CSS element?
+          </li>
+          <p>
+            <input
+              type="radio"
+              name="M10"
+              value="border-collapse"
+              id="j1"
+            /><label for="j1">border-collapse</label>
+          </p>
+          <p>
+            <input type="radio" name="M10" value="border-round" id="j2" /><label
+              for="j2"
+              >border-round</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M10"
+              value="border-radius"
+              id="j3"
+            /><label for="j3">border-radius</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="M10"
+              value="None of the above"
+              id="j4"
+            /><label for="j4">None of the above</label>
+          </p>
+          <div id="btn10" class="s"></div>
+          <div>
+            <button type="button" class="btn" onclick="answer9()">
+              Show/Hide answer
+            </button>
+          </div>
+        </ol>
+      </fieldset>
+    </form>
+  </body>
+</html>
